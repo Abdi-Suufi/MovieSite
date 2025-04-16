@@ -14,10 +14,53 @@
   }
   
   .movie-card {
-    @apply relative w-full h-full transition-transform duration-300 hover:scale-110;
+    @apply relative w-full h-full transition-transform duration-300 hover:scale-110 cursor-pointer;
   }
   
   .movie-info {
-    @apply absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent;
+    @apply absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black to-transparent opacity-0 transition-opacity duration-300;
   }
+
+  .movie-card:hover .movie-info {
+    @apply opacity-100;
+  }
+}
+
+/* Slider Styles */
+.slick-slider {
+  @apply relative;
+}
+
+.slick-list {
+  @apply overflow-hidden;
+}
+
+.slick-track {
+  @apply flex;
+}
+
+.slick-slide {
+  @apply h-auto;
+}
+
+.slick-slide > div {
+  @apply h-full;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-netflix-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-netflix-gray rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-netflix-red;
 } 
