@@ -21,7 +21,7 @@ A Netflix clone built with React, TypeScript, and TMDB API. This project replica
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/netflix-clone.git
+git clone https://github.com/abdi-suufi/netflix-clone.git
 cd netflix-clone
 ```
 
