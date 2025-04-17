@@ -40,8 +40,6 @@ VITE_TMDB_API_KEY=your_tmdb_api_key_here
 4. Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 5. Open your browser and navigate to `http://localhost:5173`
