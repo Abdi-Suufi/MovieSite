@@ -2,6 +2,8 @@
 
 A Netflix clone built with React, TypeScript, and TMDB API. This project replicates the Netflix UI and functionality for browsing movies and TV shows.
 
+![Screenshot 2025-04-30 044631](https://github.com/user-attachments/assets/dcc187cd-51e1-46bb-bf21-9064858fc66e)
+
 ## Features
 
 - Netflix-like UI with responsive design
